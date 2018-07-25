@@ -1,20 +1,26 @@
 /* turn off click events for the progress scrubber */
-.vjs-progress-control{
-  pointer-events: none;
+
+.vjs-progress-control {
+    pointer-events: none;
 }
 
+
 /* Uncomment this style if you would like to hide the progress scrubber but keep the element spacing */
+
+
 /*.vjs-progress-control {
 visibility: hidden;
 }*/
 
+
 /* Size the player */
+
 .video-js {
-  width: 640px;
-  height: 360px;
+    width: 640px;
+    height: 360px;
 }
 
-.video-js .vis-dock-text, .video-js .vis-dock-text:hover{
-	visibility: hidden;
-	display:none;
+.vjs-has-started:hover .vjs-dock-shelf,
+.vjs-has-started:hover .vjs-dock-text {
+    opacity: 0!important;
 }
