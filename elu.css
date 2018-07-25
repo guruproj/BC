@@ -14,6 +14,7 @@ visibility: hidden;
   height: 360px;
 }
 
-.vis-dock-text{
+.video-js .vis-dock-text, .video-js .vis-dock-text:hover{
 	visibility: hidden;
+	display:none;
 }
